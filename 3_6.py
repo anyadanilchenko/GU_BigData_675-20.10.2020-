@@ -7,6 +7,7 @@
 # буквы. Необходимо использовать написанную ранее функцию int_func().
 
 
+
 def int_func(data):
     print(data.capitalize())
     print(data.title())
