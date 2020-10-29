@@ -4,8 +4,7 @@
 
 try:
     def delnum(num1, num2):
-        total = num1/num2
-        print(f'При делении {num1} на {num2} итог {total:.2f}')
+        print(f'При делении {num1} на {num2} итог {num1/num2:.2f}')
 
     numone = int(input('Введите первое число: '))
     numtwo = int(input('Введите второе число: '))
