@@ -7,22 +7,12 @@
 # буквы. Необходимо использовать написанную ранее функцию int_func().
 
 
+def int_func(data):
+    if all(96 < ord(word) < 123 or ord(word) == 32 for word in data):
+        print(data.capitalize())
+        print(data.title())
+    else:
+        print('Вы ввели некоректное значение')
 
-#def int_func(data):
-   # for i in range(len(data)):
-      #  if
-    #print(data.capitalize())
-    #print(data.title())
-
-
-
-#line = input('Введите строку: ')
-#int_func(line)
-#print(*list(map(lambda x: x.title(), line.split())))
-
-abc = set('abcdefghijklmnopqrstuvwxyz')
-a = 'mama'
-if a in abc:
-    print('yes')
-else:
-    print('no')
+line = input('Введите слова из маленьких латинских букв: ')
+int_func(line)
