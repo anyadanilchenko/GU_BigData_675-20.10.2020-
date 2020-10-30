@@ -8,11 +8,21 @@
 
 
 
-def int_func(data):
-    print(data.capitalize())
-    print(data.title())
+#def int_func(data):
+   # for i in range(len(data)):
+      #  if
+    #print(data.capitalize())
+    #print(data.title())
 
 
-line = input('Введите строку: ')
-int_func(line)
-print(*list(map(lambda x: x.title(), line.split())))
+
+#line = input('Введите строку: ')
+#int_func(line)
+#print(*list(map(lambda x: x.title(), line.split())))
+
+abc = set('abcdefghijklmnopqrstuvwxyz')
+a = 'mama'
+if a in abc:
+    print('yes')
+else:
+    print('no')
